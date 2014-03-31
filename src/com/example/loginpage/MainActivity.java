@@ -5,6 +5,7 @@ import android.app.Activity;
 import android.graphics.Paint;
 import android.view.Menu;
 import android.widget.TextView;
+import android.widget.Toast;
 
 public class MainActivity extends Activity {
 TextView _forgot,_sign;
@@ -20,10 +21,12 @@ TextView _forgot,_sign;
 	} 
      public void onclickforgot()
      {
+    	 Toast.makeText(getApplicationContext(), "forget",Toast.LENGTH_SHORT).show();
     	 // for forgoten password
     	}
      public void onclicksign()
      {
+    	 Toast.makeText(getApplicationContext(), "haha",Toast.LENGTH_SHORT).show();
     	 // for Sign up
     	}
 	public boolean onCreateOptionsMenu(Menu menu) {
